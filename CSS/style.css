@@ -45,20 +45,24 @@ h2 {
 a:link {
     font-size: 20px;
     text-decoration: none;
+    color: #E5E5E5; 
+  }
+
+  a:visited {
+    color: #E5E5E5; 
 
   }
 
   a:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
   
   a:active {
     text-decoration: underline;
   }
 
-  a:visited {
-    color: #E5E5E5; 
-  }
+ 
 
 /* Logo */
 #logo {
@@ -123,12 +127,200 @@ section.heroImg {
     padding: 20px;
     border-radius: 25px;
 }
+  
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+  
+  .skills {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: white;
+  }
+  
+  .accessibility {
+      width: 95%; 
+      background-color: #6F0C11;
+      border-radius: 5px;
+      animation: accessibility 10s;
+      animation-fill-mode: forwards;}
 
-ul li {
-    font-size: 25px;
-    color: #E5E5E5;
+      @keyframes accessibility {
+        from {
+          width: 0%
+        }
+        to {
+          width: 95%;
+        }
+      }
+  .collaboration {
+      width: 95%; 
+      background-color: #F17E84;
+      border-radius: 5px;
+    animation: collaboration 10s;
+    animation-fill-mode: forwards;}
+
+      @keyframes collaboration {
+        from {
+          width: 0%
+        }
+        to {
+          width: 95%;
+        }
+      }
+  .uxUi {
+      width: 90%;
+        background-color:#6F0C11;
+        border-radius: 5px;
+        animation: uxUi 10s;
+        animation-fill-mode: forwards;}
+        @keyframes uxUi {
+            from {
+              width: 0%
+            }
+            to {
+              width: 90%;
+            }
+          }
+  .userResearch {
+      width:95%;
+        background-color: #F17E84;
+        border-radius: 5px;
+        animation: userResearch 10s;
+        animation-fill-mode: forwards;}
+        @keyframes userResearch {
+            from {
+              width: 0%
+            }
+            to {
+              width: 95%;
+            }
+          }
+  .interactionDesign {
+      width: 80%;
+        background-color: #6F0C11;
+        border-radius: 5px;
+        animation: interactionDesign 10s;
+        animation-fill-mode: forwards;}
+        @keyframes interactionDesign {
+            from {
+              width: 0%
+            }
+            to {
+              width: 80%;
+            }
+          }
+  .appliedBehavior {
+      width: 80%;
+        background-color: #F17E84;
+        border-radius: 5px;
+        animation: appliedBehavior 10s;
+        animation-fill-mode: forwards;}
+        @keyframes appliedBehavior {
+            from {
+              width: 0%
+            }
+            to {
+              width: 80%;
+            }
+          }
+
+.tools {
+     text-align: left;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    padding-left: 10px;
+    color: white;
 }
-
+          
+.figma {
+    width: 80%; 
+    background-color: #6F0C11;
+    border-radius: 5px;
+    animation: figma 10s;
+    animation-fill-mode: forwards;}
+    @keyframes figma {
+        from {
+          width: 0%
+        }
+        to {
+          width: 80%;
+        }
+      }
+.invision {
+    width: 85%; 
+    background-color: #F17E84;
+    border-radius: 5px;
+    animation: invision 10s;
+    animation-fill-mode: forwards;}
+    @keyframes invision {
+        from {
+          width: 0%
+        }
+        to {
+          width: 85%;
+        }
+      }
+.html {
+    width: 75%; 
+    background-color: #6F0C11;
+    border-radius: 5px;
+    animation: html 10s;
+    animation-fill-mode: forwards;}
+    @keyframes html {
+        from {
+          width: 0%
+        }
+        to {
+          width: 75%;
+        }
+      }
+.css {
+    width: 75%;
+    background-color: #F17E84;
+    border-radius: 5px;
+    animation: css 10s;
+    animation-fill-mode: forwards;}
+    @keyframes css {
+        from {
+          width: 0%
+        }
+        to {
+          width: 75%;
+        }
+      }
+.jquery {
+    width:70%;
+    background-color: #6F0C11;
+    border-radius: 5px;
+    animation: jquery 10s;
+    animation-fill-mode: forwards;}
+    @keyframes jquery {
+        from {
+          width: 0%
+        }
+        to {
+          width: 70%;
+        }
+      }
+.bootstrap {
+    width: 70%;
+    background-color: #F17E84;
+    border-radius: 5px;
+    animation: bootstrap 10s;
+    animation-fill-mode: forwards;}
+    @keyframes bootstrap {
+        from {
+          width: 0%
+        }
+        to {
+          width: 70%;
+        }
+      }
 
 /* griffith section */
 .section-title {
@@ -173,6 +365,7 @@ section.NWS {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
 }
 
 #NWSlink {
@@ -181,13 +374,21 @@ section.NWS {
 }
 
 .contentNWS {
-    text-align: right;
+    text-align: left;
     font-size: 30px;
     font-weight: lighter;
 }
 
 .section-titleNWS {
-    text-align: right;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/*Footer Links*/
+#fblink:hover {
+ background-color: #2997F6;
 }
 
 /*text*/
