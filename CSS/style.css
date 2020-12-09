@@ -387,8 +387,16 @@ section.NWS {
 
 
 /*Footer Links*/
-#fblink:hover {
- background-color: #2997F6;
+#afblink:hover {
+ background-color: #2997F6 !important;
+}
+
+#belink:hover {
+    color: black;
+}
+
+#linkedlink:hover {
+    color:#2274B1
 }
 
 /*text*/
