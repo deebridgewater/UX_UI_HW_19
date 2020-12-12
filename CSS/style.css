@@ -1,7 +1,7 @@
-*, *:before, *:after {
-    border: 1px solid #313131
+/**, *:before, *:after {
+    border: 1px solid red
 
-}    
+}  */  
 /* Whole Page */ 
 body {
     background-color: #313131;
@@ -57,7 +57,7 @@ h2 {
 a:link {
     font-size: 20px;
     text-decoration: none;
-    border: rgba(0, 0, 0, 0.3);
+   
   }
 
   a:visited {
