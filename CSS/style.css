@@ -1,11 +1,17 @@
 *, *:before, *:after {
-    border: 1px solid #313131
+    border: 1px solid red
+
 }    
 /* Whole Page */ 
 body {
     background-color: #313131;
     font-family: 'Neuton', serif;
-    margin: 20px;
+    margin: 0px;
+}
+
+.Margins {
+margin: 20px;
+margin-top: 70px;
 }
 
 p {
@@ -25,8 +31,14 @@ h2 {
     display: flex;
     align-items: flex-start;
     color: #E5E5E5;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    
 }
-
+  
 .nav {
     list-style-type: none;
     text-align: right;
@@ -45,7 +57,7 @@ h2 {
 a:link {
     font-size: 20px;
     text-decoration: none;
-    color: #E5E5E5; 
+    border: rgba(0, 0, 0, 0.3);
   }
 
   a:visited {
@@ -323,6 +335,10 @@ section.heroImg {
       }
 
 /* griffith section */
+
+#griffith-gif {
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
 .section-title {
     font-size: 50px;
     font-weight: bold;
@@ -387,6 +403,9 @@ section.NWS {
 
 
 /*Footer Links*/
+footer {
+  margin: 20px;
+}
 #afblink:hover {
  background-color: #2997F6 !important;
 }
