@@ -1,7 +1,7 @@
-/**, *:before, *:after {
+/* *, *:before, *:after {
     border: 1px solid red
 
-}  */  
+}  */
 /* Whole Page */ 
 body {
     background-color: #313131;
@@ -10,7 +10,7 @@ body {
 }
 
 .Margins {
-margin: 20px;
+margin: 50px;
 margin-top: 70px;
 }
 
@@ -35,6 +35,8 @@ h2 {
     position: fixed;
     top: 0;
     width: 100%;
+    padding-left: 50px;
+    padding-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.3);
     
 }
@@ -45,18 +47,25 @@ h2 {
     margin: 0;
     text-decoration: none;
     color: #E5E5E5
+   
 }
 
 .nav li {
     display: inline-block;
     padding: 20px;
+    padding-right: 30px;
     
+}
+
+ul {
+  padding-right: 70px;
 }
 
 
 a:link {
     font-size: 20px;
     text-decoration: none;
+    color: #E5E5E5; 
    
   }
 
@@ -66,7 +75,7 @@ a:link {
   }
 
   a:hover {
-    text-decoration: underline;
+    color: rgb(173, 173, 173);
     cursor: pointer;
   }
   
@@ -74,8 +83,19 @@ a:link {
     text-decoration: underline;
   }
 
- 
-
+  .button {
+    background-color: #363636;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; 
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
 /* Logo */
 #logo {
     flex-grow:1;
@@ -336,9 +356,7 @@ section.heroImg {
 
 /* griffith section */
 
-#griffith-gif {
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
-}
+
 .section-title {
     font-size: 50px;
     font-weight: bold;
@@ -350,11 +368,22 @@ section.heroImg {
     font-size: 25px;
     margin-top: 0;
     padding-top: 50px;
+    width: 40%; 
+    text-align:right;
+    border-bottom: 3px solid #E5E5E5; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+ }
+ .subheading span { 
+ background-color: #313131;
+  padding:0 10px; 
 }
 
 section.griffith {
     display: flex;
     margin-top: 100px;
+    background-color: #272727;
+    padding: 30px;
 }
 #griffith-left {
     flex-grow: 1;
@@ -368,13 +397,30 @@ section.griffith {
 #Griflink {
     bottom: -17%;   
     position: relative;
+    background-color: #363636;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; 
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#Griflink:hover {
+  color: rgb(173, 173, 173);
+  cursor: pointer;
 }
 
 /* national weather service section */
 section.NWS {
     display: flex;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
+    background-color: #272727;
+    padding: 30px;
 }
 
 #NWS-right {
@@ -386,7 +432,23 @@ section.NWS {
 
 #NWSlink {
     align-self: flex-end; 
+    background-color: #363636;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; 
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
+}
+
+#NWSlink:hover {
+  color: rgb(173, 173, 173);
+  cursor: pointer;
 }
 
 .contentNWS {
@@ -404,19 +466,18 @@ section.NWS {
 
 /*Footer Links*/
 footer {
-  margin: 20px;
+  margin: 50px;
 }
-#afblink:hover {
- background-color: #2997F6 !important;
-}
+#fblink:hover {
+ background-color:rgb(173, 173, 173);}
 
 #belink:hover {
-    color: black;
-}
+  background-color:rgb(173, 173, 173);}
+
 
 #linkedlink:hover {
-    color:#2274B1
-}
+  background-color:rgb(173, 173, 173);}
+
 
 /*text*/
 .content {
@@ -424,6 +485,10 @@ footer {
     font-weight: lighter;
     text-align: left;
     
+}
+
+#email {
+  font-size: 32px!important;
 }
 /*Preloader*/
 .preloader {
